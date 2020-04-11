@@ -1,0 +1,12 @@
+{
+  "name": "nodejs-express-website",
+  "version": "1.0.0",
+  "description": "website using nodejs and expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "git repository": "",
+  "author": "AnkitDroidGit",
+  "license": "ISC"
+}
