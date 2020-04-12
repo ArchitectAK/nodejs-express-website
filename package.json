@@ -12,7 +12,9 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^4.17.6",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "lodash.template": "^4.5.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0",
