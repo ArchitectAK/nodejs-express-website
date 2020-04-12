@@ -10,3 +10,11 @@
   git reset --hard
   git branch
   ```
+
+
+### Would you like to buy me a cup of coffee?
+#### I'd appreciate even your little contribution to my work, it helps me keep this Open Source updated. If this project helped you or your business and if you feel like donating some bucks, you can [Paypal Me](https://paypal.me/cogitator?locale.x=en_US)
+
+or
+
+<a href='https://ko-fi.com/L3L1DM19' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi2.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
