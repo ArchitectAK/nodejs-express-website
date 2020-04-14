@@ -4,7 +4,7 @@ const path = require('path');
 const FeedbackService = require('./services/FeedbackService');
 const SpeakerService = require('./services/SpeakerService');
 
-const feedbackServices = new FeedbackService('./data/feedback.json');
+const feedbackService = new FeedbackService('./data/feedback.json');
 const speakerService = new SpeakerService('./data/speakers.json');
 
 const routes = require('./routes');
@@ -20,7 +20,7 @@ app.use(express.static(path.join(__dirname, './static')));
 app.use(
   '/',
   routes({
-    feedbackServices,
+    feedbackService,
     speakerService,
   })
 );
