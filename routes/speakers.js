@@ -12,7 +12,6 @@ module.exports = (params) => {
   router.get('/:shortname', async (request, response) => {
     const speaker = await speakerService.getSpeaker(request.params.shortname);
     const artwork = await speakerService.getArtworkForSpeaker(request.params.shortname);
-    console.log(artwork);
     response.render('layout', {
       pageTitle: ' Speakers',
       template: 'speakers-detail',
